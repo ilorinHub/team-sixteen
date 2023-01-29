@@ -183,3 +183,45 @@ nav {
   width: 800px;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #374988;
+  margin-top: 50px;
+  gap: 10px;
+}
+
+.footer > img {
+  width: 180px;
+  height: 50px;
+  padding-top: 30px;
+  color: white;
+}
+
+.footer > p {
+  color: white;
+}
+
+.footerUl {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.footerUl > li {
+  margin-right: 30px;
+  color: white;
+}
+
+.firstChild  {
+  margin-left: 40px;
+  padding-top: 10px;
+}
+
+.footerUl > li > a {
+  text-decoration: none;
+  color: white;
+}
