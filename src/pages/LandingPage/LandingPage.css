@@ -1,0 +1,91 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background: white;
+}
+
+.navImg {
+  width: 150px;
+  height: 50px;
+}
+
+.navUl {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navUl > li {
+  margin-right: 30px;
+}
+
+.navUl > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+.navBtn {
+  /* padding: 10px 20px; */
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  height: 60px;
+  width: 180px;
+}
+
+
+
+.heroWrapper {
+    background-image: url("../../images/HeroBg.svg");
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroTextDiv {
+    width: 516px;
+    margin-left: 70px;
+}
+
+.heroBtn {
+  /* padding: 10px 20px; */
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  height: 60px;
+  width: 250px;
+}
+
+
+.secondSecWrapper {
+    background: #374988;
+    height: 190px;
+
+}
+
+.secondSecWrapper > h2 {
+    color: white;
+    margin-left: 70px;
+    margin-top: 0px;
+    padding-top: 15px;
+}
+
+.SSImgDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.SSImgDiv > img {
+    width: 130px;
+}
