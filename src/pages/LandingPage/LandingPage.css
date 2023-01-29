@@ -89,3 +89,97 @@ nav {
 .SSImgDiv > img {
     width: 130px;
 }
+
+.aboutWrapper {
+  background-image: url("../../images/AboutBg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 720px;
+}
+
+.fdiv {
+    margin-left: 70px;
+    width: 708px;
+}
+.fdiv > h2 {
+    margin-top: 0px;
+    padding-top: 60px;
+}
+
+.FSImgDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.FSImgDiv > img {
+    width: 320px;
+}
+
+.FSSImgDiv {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    padding-top: 60px;
+    margin-left: 140px;
+    
+}
+
+.FSSImgDiv > img {
+    width: 320px;
+}
+
+.FSSImg {
+  margin-left: 150px;
+}
+
+.SFSDiv {
+  padding-top: 60px;
+}
+
+.SFSDiv > h2 {
+  text-align: center;
+}
+
+.SFSImgDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+}
+
+.TFSDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+  padding-top: 60px;
+}
+
+.TFSBtn {
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  height: 60px;
+  width: 250px;
+}
+
+.STFSDIV > h2 {
+  margin-left: 150px;
+  padding-top: 60px;
+}
+
+.STFSIMGDIV {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.STFSIMGDIV > img {
+  width: 800px;
+}
+
